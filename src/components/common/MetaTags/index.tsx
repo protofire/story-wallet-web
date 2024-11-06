@@ -3,8 +3,8 @@ import { ContentSecurityPolicy, StrictTransportSecurity } from '@/config/securit
 import lightPalette from '@/components/theme/lightPalette'
 import darkPalette from '@/components/theme/darkPalette'
 
-const descriptionText = 'Safe{Wallet} is the most trusted smart account wallet on Ethereum with over $100B secured.'
-const titleText = 'Safe{Wallet}'
+const descriptionText = 'Story Safe is the most trusted platform to manage digital assets on Story'
+const titleText = 'Story Safe'
 
 const MetaTags = ({ prefetchUrl }: { prefetchUrl: string }) => (
   <>
@@ -40,9 +40,9 @@ const MetaTags = ({ prefetchUrl }: { prefetchUrl: string }) => (
 
     {/* Favicons */}
     <link rel="shortcut icon" href="/favicons/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon.ico" />
     <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#000" />
   </>
 )
