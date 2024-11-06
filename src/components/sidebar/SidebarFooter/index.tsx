@@ -8,7 +8,7 @@ import {
   SidebarListItemText,
 } from '@/components/sidebar/SidebarList'
 import { BEAMER_SELECTOR, loadBeamer } from '@/services/beamer'
-import { useAppDispatch, useAppSelector } from '@/store'
+import { useAppSelector } from '@/store'
 import { CookieAndTermType, hasConsentFor } from '@/store/cookiesAndTermsSlice'
 import HelpCenterIcon from '@/public/images/sidebar/help-center.svg'
 import { Link, ListItem, SvgIcon, Typography } from '@mui/material'
