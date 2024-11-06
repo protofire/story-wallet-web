@@ -797,7 +797,7 @@ const ensSafeAppMock: SafeAppData = {
   id: 3,
   url: 'https://app.ens.domains',
   name: 'ENS App',
-  iconUrl: 'https://app.ens.domains/android-chrome-144x144.png',
+  iconUrl: 'https://app.ens.domains//images/safe-logo-green.png',
   description: 'Decentralised naming for wallets, websites, & more.',
   chainIds: ['1', '4', '137'],
   provider: undefined,
