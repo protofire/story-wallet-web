@@ -16,7 +16,7 @@ const NotificationsPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Story Oddyssey Safe – Settings – Notifications</title>
+        <title>Story Safe – Settings – Notifications</title>
       </Head>
 
       <SettingsHeader />

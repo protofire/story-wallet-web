@@ -7,7 +7,7 @@ const EnvironmentVariablesPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Story Oddyssey Safe – Settings – Environment variables</title>
+        <title>Story Safe – Settings – Environment variables</title>
       </Head>
 
       <SettingsHeader />

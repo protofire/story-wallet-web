@@ -69,37 +69,34 @@ const Footer = (): ReactElement | null => {
             <li>
               <FooterLink href={getHref(AppRoutes.settings.index)}>Preferences</FooterLink>
             </li> */}
-            <li>
-              <ExternalLink href={HELP_CENTER_URL} noIcon sx={{ span: { textDecoration: 'underline' } }}>
-                Help
-              </ExternalLink>
-            </li>
-            <li>
-              <Typography variant="caption">
-                Supported by{' '}
-                <SvgIcon
-                  component={ProtofireLogo}
-                  inheritViewBox
-                  fontSize="small"
-                  sx={{ verticalAlign: 'middle', mx: 0.5 }}
-                />
-                <MUILink href="https://protofire.io" sx={{ color: darkPalette.primary.main, textDecoration: 'none' }}>
-                  Protofire
-                </MUILink>
-              </Typography>
-            </li>
           </>
         ) : (
-          <li>This is an unofficial distribution of Story Oddyssey Safe</li>
+          <li>
+            <ExternalLink href={HELP_CENTER_URL} noIcon sx={{ span: { textDecoration: 'underline' } }}>
+              Help
+            </ExternalLink>
+          </li>
+          // <li>This is an unofficial distribution of Story Safe</li>
         )}
 
-        <li>
+        {/* <li>
           <ExternalLink href={`${packageJson.homepage}/releases/tag/v${packageJson.version}`} noIcon>
             <SvgIcon component={GitHubIcon} inheritViewBox fontSize="inherit" sx={{ mr: 0.5 }} /> v{packageJson.version}
           </ExternalLink>
-        </li>
+        </li> */}
         <li>
-          <AppstoreButton placement="footer" />
+          <Typography variant="caption">
+            Supported by{' '}
+            <SvgIcon
+              component={ProtofireLogo}
+              inheritViewBox
+              fontSize="small"
+              sx={{ verticalAlign: 'middle', mx: 0.5 }}
+            />
+            <MUILink href="https://protofire.io" sx={{ color: darkPalette.primary.main, textDecoration: 'none' }}>
+              Protofire
+            </MUILink>
+          </Typography>
         </li>
       </ul>
     </footer>

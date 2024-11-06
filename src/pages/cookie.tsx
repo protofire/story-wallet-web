@@ -593,7 +593,7 @@ const CookiePolicy: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Story Oddyssey Safe – Cookie policy</title>
+        <title>Story Safe – Cookie policy</title>
       </Head>
 
       <main>{IS_OFFICIAL_HOST && <SafeCookiePolicy />}</main>

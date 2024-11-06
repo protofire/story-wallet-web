@@ -142,7 +142,7 @@ const AppFrame = ({ appUrl, allowedFeaturesList, safeAppFromManifest, isNativeEm
     <>
       {!isNativeEmbed && (
         <Head>
-          <title>{`Story Oddyssey Safe - Safe Apps${remoteApp ? ' - ' + remoteApp.name : ''}`}</title>
+          <title>{`Story Safe - Safe Apps${remoteApp ? ' - ' + remoteApp.name : ''}`}</title>
         </Head>
       )}
 

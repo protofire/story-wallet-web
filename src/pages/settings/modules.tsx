@@ -10,7 +10,7 @@ const Modules: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Story Oddyssey Safe – Settings – Modules</title>
+        <title>Story Safe – Settings – Modules</title>
       </Head>
 
       <SettingsHeader />

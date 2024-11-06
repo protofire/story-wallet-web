@@ -42,9 +42,9 @@ export const createOnboard = (
     },
 
     appMetadata: {
-      name: 'Story Oddyssey Safe',
+      name: 'Story Safe',
       icon: location.origin + '/images/logo-round.svg',
-      description: 'Story Oddyssey Safe – smart contract wallet for Ethereum (ex-Gnosis Safe multisig)',
+      description: 'Story Safe – smart contract wallet for Ethereum (ex-Gnosis Safe multisig)',
     },
 
     connect: {

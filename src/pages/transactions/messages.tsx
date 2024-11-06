@@ -26,7 +26,7 @@ const Messages: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Story Oddyssey Safe – Messages</title>
+        <title>Story Safe – Messages</title>
       </Head>
 
       <TxHeader>

@@ -7,7 +7,7 @@ const Data: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Story Oddyssey Safe – Settings – Data</title>
+        <title>Story Safe – Settings – Data</title>
       </Head>
 
       <SettingsHeader />
