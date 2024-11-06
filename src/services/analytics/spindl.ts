@@ -4,7 +4,7 @@ import { IS_PRODUCTION } from '@/config/constants'
 export const spindlInit = () => {
   const SPINDL_SDK_KEY = process.env.NEXT_PUBLIC_SPINDL_SDK_KEY
 
-  if (!IS_PRODUCTION || !SPINDL_SDK_KEY) return
+  if (!IS_PRODUCTION || !process.env.NEXT_PUBLIC_SPINDL_SDK_KEY) return
 
   spindl.configure({
     sdkKey: SPINDL_SDK_KEY || '',
