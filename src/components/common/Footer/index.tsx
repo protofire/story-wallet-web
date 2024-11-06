@@ -1,7 +1,6 @@
-import type { ReactElement, ReactNode } from 'react'
+import type { ReactElement } from 'react'
 import { SvgIcon, Typography } from '@mui/material'
 import GitHubIcon from '@mui/icons-material/GitHub'
-import Link from 'next/link'
 import { useRouter } from 'next/router'
 import css from './styles.module.css'
 import { AppRoutes } from '@/config/routes'
