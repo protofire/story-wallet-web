@@ -23,15 +23,15 @@ const footerPages = [
   AppRoutes.licenses,
 ]
 
-const FooterLink = ({ children, href }: { children: ReactNode; href: string }): ReactElement => {
-  return href ? (
-    <Link href={href} passHref legacyBehavior>
-      <MUILink>{children}</MUILink>
-    </Link>
-  ) : (
-    <MUILink>{children}</MUILink>
-  )
-}
+// const FooterLink = ({ children, href }: { children: ReactNode; href: string }): ReactElement => {
+//   return href ? (
+//     <Link href={href} passHref legacyBehavior>
+//       <MUILink>{children}</MUILink>
+//     </Link>
+//   ) : (
+//     <MUILink>{children}</MUILink>
+//   )
+// }
 
 const Footer = (): ReactElement | null => {
   const router = useRouter()
@@ -40,9 +40,9 @@ const Footer = (): ReactElement | null => {
     return null
   }
 
-  const getHref = (path: string): string => {
-    return router.pathname === path ? '' : path
-  }
+  // const getHref = (path: string): string => {
+  //   return router.pathname === path ? '' : path
+  // }
 
   return (
     <footer className={css.container}>
@@ -91,7 +91,7 @@ const Footer = (): ReactElement | null => {
             </li>
           </>
         ) : (
-          <li>{'This is an unofficial distribution of Story Oddyssey Safe'}</li>
+          <li>This is an unofficial distribution of Story Oddyssey Safe</li>
         )}
 
         <li>

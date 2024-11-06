@@ -30,7 +30,7 @@ const Terms: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{'Story Oddyssey Safe – Terms'}</title>
+        <title>Story Oddyssey Safe – Terms</title>
       </Head>
 
       <main>{IS_OFFICIAL_HOST && <SafeTerms components={overrideComponents} />}</main>
