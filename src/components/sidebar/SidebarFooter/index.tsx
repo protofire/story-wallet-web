@@ -22,7 +22,7 @@ import SuggestionIcon from '@/public/images/sidebar/lightbulb_icon.svg'
 import darkPalette from '@/components/theme/darkPalette'
 
 const SidebarFooter = (): ReactElement => {
-  const dispatch = useAppDispatch()
+  //const dispatch = useAppDispatch()
   const chain = useCurrentChain()
   const hasBeamerConsent = useAppSelector((state) => hasConsentFor(state, CookieAndTermType.UPDATES))
 
