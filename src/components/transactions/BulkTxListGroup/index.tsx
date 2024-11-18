@@ -24,7 +24,7 @@ const getSettlementOrderTitle = (order: Order): string => {
 
 const GroupedTxListItems = ({
   groupedListItems,
-  transactionHash,
+  ,
 }: {
   groupedListItems: Transaction[]
   transactionHash: string

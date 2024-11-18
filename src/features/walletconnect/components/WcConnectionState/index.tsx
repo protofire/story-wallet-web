@@ -2,7 +2,7 @@ import { SvgIcon, Typography } from '@mui/material'
 import classNames from 'classnames'
 import type { CoreTypes } from '@walletconnect/types'
 import SafeAppIconCard from '@/components/safe-apps/SafeAppIconCard'
-import SafeLogo from '@/public/images/logo-no-text.svg'
+import SafeLogo from '@/public/images/logo-text.svg'
 import ConnectionDots from '@/public/images/common/connection-dots.svg'
 import css from './styles.module.css'
 
