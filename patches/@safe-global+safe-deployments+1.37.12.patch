@@ -250,3 +250,276 @@ index 45e8ac2..50d0d7d 100644
          "1625": "canonical",
          "1729": "canonical",
          "1811": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/compatibility_fallback_handler.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/compatibility_fallback_handler.json
+index e33897b..dd86969 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/compatibility_fallback_handler.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/compatibility_fallback_handler.json
+@@ -116,7 +116,7 @@
+     "1294": "eip155",
+     "1329": "canonical",
+     "1337": "eip155",
+-    "1442": "eip155",
++    "1516": "eip155",
+     "1559": "eip155",
+     "1663": "eip155",
+     "1729": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/create_call.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/create_call.json
+index 3cdfe83..389623a 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/create_call.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/create_call.json
+@@ -116,7 +116,7 @@
+     "1294": "eip155",
+     "1329": "canonical",
+     "1337": "eip155",
+-    "1442": "eip155",
++    "1516": "eip155",
+     "1559": "eip155",
+     "1663": "eip155",
+     "1729": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/gnosis_safe.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/gnosis_safe.json
+index fb404a0..28b4f0d 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/gnosis_safe.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/gnosis_safe.json
+@@ -116,7 +116,7 @@
+     "1294": "eip155",
+     "1329": "canonical",
+     "1337": "eip155",
+-    "1442": "eip155",
++    "1516": "eip155",
+     "1559": "eip155",
+     "1663": "eip155",
+     "1729": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/gnosis_safe_l2.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/gnosis_safe_l2.json
+index 1c083f3..afeed14 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/gnosis_safe_l2.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/gnosis_safe_l2.json
+@@ -116,7 +116,7 @@
+     "1294": "eip155",
+     "1329": "canonical",
+     "1337": "eip155",
+-    "1442": "eip155",
++    "1516": "eip155",
+     "1559": "eip155",
+     "1663": "eip155",
+     "1729": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/multi_send.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/multi_send.json
+index 1726ef4..4f81487 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/multi_send.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/multi_send.json
+@@ -116,7 +116,7 @@
+     "1294": "eip155",
+     "1329": "canonical",
+     "1337": "eip155",
+-    "1442": "eip155",
++    "1516": "eip155",
+     "1559": "eip155",
+     "1663": "eip155",
+     "1729": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/multi_send_call_only.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/multi_send_call_only.json
+index 238f6bb..1a16085 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/multi_send_call_only.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/multi_send_call_only.json
+@@ -116,7 +116,7 @@
+     "1294": "eip155",
+     "1329": "canonical",
+     "1337": "eip155",
+-    "1442": "eip155",
++    "1516": "eip155",
+     "1559": "eip155",
+     "1663": "eip155",
+     "1729": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/proxy_factory.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/proxy_factory.json
+index 12f53ee..e233314 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/proxy_factory.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/proxy_factory.json
+@@ -116,7 +116,7 @@
+     "1294": "eip155",
+     "1329": "canonical",
+     "1337": "eip155",
+-    "1442": "eip155",
++    "1516": "eip155",
+     "1559": "eip155",
+     "1663": "eip155",
+     "1729": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/sign_message_lib.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/sign_message_lib.json
+index 919713a..deb43d4 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/sign_message_lib.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/sign_message_lib.json
+@@ -116,7 +116,7 @@
+     "1294": "eip155",
+     "1329": "canonical",
+     "1337": "eip155",
+-    "1442": "eip155",
++    "1516": "eip155",
+     "1559": "eip155",
+     "1663": "eip155",
+     "1729": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/simulate_tx_accessor.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/simulate_tx_accessor.json
+index 06577ff..3e97ec9 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/simulate_tx_accessor.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.3.0/simulate_tx_accessor.json
+@@ -116,7 +116,7 @@
+     "1294": "eip155",
+     "1329": "canonical",
+     "1337": "eip155",
+-    "1442": "eip155",
++    "1516": "eip155",
+     "1559": "eip155",
+     "1663": "eip155",
+     "1729": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/compatibility_fallback_handler.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/compatibility_fallback_handler.json
+index bc50e7d..191def4 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/compatibility_fallback_handler.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/compatibility_fallback_handler.json
+@@ -11,7 +11,7 @@
+   "networkAddresses": {
+     "1": "canonical",
+     "5": "canonical",
+-    "10": "canonical",
++    "1516": "canonical",
+     "14": "canonical",
+     "16": "canonical",
+     "19": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/create_call.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/create_call.json
+index 0fd43b0..74877b7 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/create_call.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/create_call.json
+@@ -11,7 +11,7 @@
+   "networkAddresses": {
+     "1": "canonical",
+     "5": "canonical",
+-    "10": "canonical",
++    "1516": "canonical",
+     "14": "canonical",
+     "16": "canonical",
+     "19": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/multi_send.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/multi_send.json
+index abc4a94..4716a5e 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/multi_send.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/multi_send.json
+@@ -11,7 +11,7 @@
+   "networkAddresses": {
+     "1": "canonical",
+     "5": "canonical",
+-    "10": "canonical",
++    "1516": "canonical",
+     "14": "canonical",
+     "16": "canonical",
+     "19": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/multi_send_call_only.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/multi_send_call_only.json
+index 349cf2d..132e0c6 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/multi_send_call_only.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/multi_send_call_only.json
+@@ -11,7 +11,7 @@
+   "networkAddresses": {
+     "1": "canonical",
+     "5": "canonical",
+-    "10": "canonical",
++    "1516": "canonical",
+     "14": "canonical",
+     "16": "canonical",
+     "19": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe.json
+index 2e236e8..7ca8a1c 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe.json
+@@ -11,7 +11,7 @@
+   "networkAddresses": {
+     "1": "canonical",
+     "5": "canonical",
+-    "10": "canonical",
++    "1516": "canonical",
+     "14": "canonical",
+     "16": "canonical",
+     "19": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_l2.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_l2.json
+index 044d073..73d852c 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_l2.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_l2.json
+@@ -11,7 +11,7 @@
+   "networkAddresses": {
+     "1": "canonical",
+     "5": "canonical",
+-    "10": "canonical",
++    "1516": "canonical",
+     "14": "canonical",
+     "16": "canonical",
+     "19": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_migration.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_migration.json
+index c799870..fedd7d1 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_migration.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_migration.json
+@@ -10,7 +10,7 @@
+   },
+   "networkAddresses": {
+     "1": "canonical",
+-    "10": "canonical",
++    "1516": "canonical",
+     "56": "canonical",
+     "81": "canonical",
+     "100": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_proxy_factory.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_proxy_factory.json
+index 717342e..4c18655 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_proxy_factory.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_proxy_factory.json
+@@ -11,7 +11,7 @@
+   "networkAddresses": {
+     "1": "canonical",
+     "5": "canonical",
+-    "10": "canonical",
++    "1516": "canonical",
+     "14": "canonical",
+     "16": "canonical",
+     "19": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_to_l2_migration.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_to_l2_migration.json
+index 5d5552b..101ffe7 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_to_l2_migration.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_to_l2_migration.json
+@@ -10,7 +10,7 @@
+   },
+   "networkAddresses": {
+     "1": "canonical",
+-    "10": "canonical",
++    "1516": "canonical",
+     "56": "canonical",
+     "81": "canonical",
+     "100": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_to_l2_setup.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_to_l2_setup.json
+index f113dc9..2fd5b0b 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_to_l2_setup.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/safe_to_l2_setup.json
+@@ -10,7 +10,7 @@
+   },
+   "networkAddresses": {
+     "1": "canonical",
+-    "10": "canonical",
++    "1516": "canonical",
+     "56": "canonical",
+     "81": "canonical",
+     "100": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/sign_message_lib.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/sign_message_lib.json
+index 68998fd..c07f15a 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/sign_message_lib.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/sign_message_lib.json
+@@ -11,7 +11,7 @@
+   "networkAddresses": {
+     "1": "canonical",
+     "5": "canonical",
+-    "10": "canonical",
++    "1516": "canonical",
+     "14": "canonical",
+     "16": "canonical",
+     "19": "canonical",
+diff --git a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/simulate_tx_accessor.json b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/simulate_tx_accessor.json
+index 6fbab9e..4704b5b 100644
+--- a/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/simulate_tx_accessor.json
++++ b/node_modules/@safe-global/safe-deployments/src/assets/v1.4.1/simulate_tx_accessor.json
+@@ -11,7 +11,7 @@
+   "networkAddresses": {
+     "1": "canonical",
+     "5": "canonical",
+-    "10": "canonical",
++    "1516": "canonical",
+     "14": "canonical",
+     "16": "canonical",
+     "19": "canonical",

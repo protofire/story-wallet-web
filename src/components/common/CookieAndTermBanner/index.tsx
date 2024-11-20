@@ -1,7 +1,7 @@
 import { useEffect, type ReactElement } from 'react'
 import classnames from 'classnames'
 import type { CheckboxProps } from '@mui/material'
-import { Grid, Button, Checkbox, FormControlLabel, Typography, Paper, SvgIcon, Box } from '@mui/material'
+import { Grid, Button, Checkbox, FormControlLabel, Typography, Paper, SvgIcon, Box, Link } from '@mui/material'
 import WarningIcon from '@/public/images/notifications/warning.svg'
 import { useForm } from 'react-hook-form'
 import { metadata } from '@/markdown/terms/terms.md'
@@ -17,12 +17,11 @@ import { selectCookieBanner, openCookieBanner, closeCookieBanner } from '@/store
 
 import css from './styles.module.css'
 import { AppRoutes } from '@/config/routes'
-import ExternalLink from '../ExternalLink'
 
 const COOKIE_AND_TERM_WARNING: Record<CookieAndTermType, string> = {
   [CookieAndTermType.TERMS]: '',
   [CookieAndTermType.NECESSARY]: '',
-  [CookieAndTermType.UPDATES]: `You attempted to open the "What's new" section but need to accept the "Beamer" cookies first.`,
+  [CookieAndTermType.UPDATES]: ``,
   [CookieAndTermType.ANALYTICS]: '',
 }
 
@@ -87,10 +86,13 @@ export const CookieAndTermBanner = ({
           <Grid item xs>
             <Typography variant="body2" mb={2}>
               By browsing this page, you accept our{' '}
-              <ExternalLink href={AppRoutes.terms}>Terms & Conditions</ExternalLink> (last updated{' '}
-              {metadata.last_update_date}) and the use of necessary cookies. By clicking &quot;Accept all&quot; you
-              additionally agree to the use of Beamer and Analytics cookies as listed below.{' '}
-              <ExternalLink href={AppRoutes.cookie}>Cookie policy</ExternalLink>
+              <Link href={AppRoutes.terms}>
+                <u>Terms & Conditions</u>
+              </Link>{' '}
+              and the use of necessary cookies.
+              <Link href={AppRoutes.cookie}>
+                <u>Cookie policy</u>
+              </Link>
             </Typography>
 
             <Grid container alignItems="center" gap={4}>
