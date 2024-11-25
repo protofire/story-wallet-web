@@ -1,9 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Link from 'next/link'
-import MUILink from '@mui/material/Link'
-import { AppRoutes } from '@/config/routes'
-import { IS_OFFICIAL_HOST } from '@/config/constants'
 
 const SafeCookiePolicy = () => (
   <div>
