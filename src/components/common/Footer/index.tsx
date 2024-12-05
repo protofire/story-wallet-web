@@ -1,4 +1,4 @@
-import type { ReactElement } from 'react'
+import type { ReactElement, ReactNode } from 'react'
 import { SvgIcon, Typography } from '@mui/material'
 import { useRouter } from 'next/router'
 import css from './styles.module.css'
@@ -8,6 +8,7 @@ import MUILink from '@mui/material/Link'
 import { HELP_CENTER_URL, IS_DEV, IS_OFFICIAL_HOST } from '@/config/constants'
 import darkPalette from '@/components/theme/darkPalette'
 import ProtofireLogo from '@/public/images/protofire-logo.svg'
+import Link from 'next/link'
 
 const footerPages = [
   AppRoutes.welcome.index,
@@ -19,15 +20,15 @@ const footerPages = [
   AppRoutes.licenses,
 ]
 
-// const FooterLink = ({ children, href }: { children: ReactNode; href: string }): ReactElement => {
-//   return href ? (
-//     <Link href={href} passHref legacyBehavior>
-//       <MUILink>{children}</MUILink>
-//     </Link>
-//   ) : (
-//     <MUILink>{children}</MUILink>
-//   )
-// }
+const FooterLink = ({ children, href }: { children: ReactNode; href: string }): ReactElement => {
+  return href ? (
+    <Link href={href} passHref legacyBehavior>
+      <MUILink>{children}</MUILink>
+    </Link>
+  ) : (
+    <MUILink>{children}</MUILink>
+  )
+}
 
 const Footer = (): ReactElement | null => {
   const router = useRouter()
@@ -36,9 +37,9 @@ const Footer = (): ReactElement | null => {
     return null
   }
 
-  // const getHref = (path: string): string => {
-  //   return router.pathname === path ? '' : path
-  // }
+  const getHref = (path: string): string => {
+    return router.pathname === path ? '' : path
+  }
 
   return (
     <footer className={css.container}>
@@ -81,6 +82,9 @@ const Footer = (): ReactElement | null => {
             <SvgIcon component={GitHubIcon} inheritViewBox fontSize="inherit" sx={{ mr: 0.5 }} /> v{packageJson.version}
           </ExternalLink>
         </li> */}
+        <li>
+          <FooterLink href={getHref(AppRoutes.terms)}>Terms</FooterLink>
+        </li>
         <li>
           <Typography variant="caption">
             Supported by{' '}
