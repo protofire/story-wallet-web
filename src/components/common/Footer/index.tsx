@@ -83,6 +83,9 @@ const Footer = (): ReactElement | null => {
           </ExternalLink>
         </li> */}
         <li>
+          <FooterLink href={getHref(AppRoutes.cookie)}>Cookie policy</FooterLink>
+        </li>
+        <li>
           <FooterLink href={getHref(AppRoutes.terms)}>Terms</FooterLink>
         </li>
         <li>
