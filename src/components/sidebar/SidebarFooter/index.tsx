@@ -11,7 +11,7 @@ import { BEAMER_SELECTOR, loadBeamer } from '@/services/beamer'
 import { useAppSelector } from '@/store'
 import { CookieAndTermType, hasConsentFor } from '@/store/cookiesAndTermsSlice'
 import HelpCenterIcon from '@/public/images/sidebar/help-center.svg'
-import { Link, ListItem, SvgIcon, Typography } from '@mui/material'
+import { ListItem, SvgIcon, Typography } from '@mui/material'
 import DebugToggle from '../DebugToggle'
 import { HELP_CENTER_URL, IS_PRODUCTION, NEW_SUGGESTION_FORM } from '@/config/constants'
 import Track from '@/components/common/Track'
@@ -19,7 +19,7 @@ import { OVERVIEW_EVENTS } from '@/services/analytics/events/overview'
 import { useCurrentChain } from '@/hooks/useChains'
 import ProtofireLogo from '@/public/images/protofire-logo.svg'
 import SuggestionIcon from '@/public/images/sidebar/lightbulb_icon.svg'
-import darkPalette from '@/components/theme/darkPalette'
+import ExternalLink from '@/components/common/ExternalLink'
 
 const SidebarFooter = (): ReactElement => {
   //const dispatch = useAppDispatch()
@@ -97,9 +97,9 @@ const SidebarFooter = (): ReactElement => {
               fontSize="small"
               sx={{ verticalAlign: 'middle', mx: 0.5 }}
             />
-            <Link href="https://protofire.io" sx={{ color: darkPalette.primary.main, textDecoration: 'none' }}>
+            <ExternalLink href="https://protofire.io" sx={{ textDecoration: 'none' }} noIcon>
               Protofire
-            </Link>
+            </ExternalLink>
           </Typography>
         </SidebarListItemText>
       </ListItem>
