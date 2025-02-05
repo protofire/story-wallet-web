@@ -1,11 +1,12 @@
 diff --git a/node_modules/@safe-global/protocol-kit/dist/src/utils/eip-3770/config.js b/node_modules/@safe-global/protocol-kit/dist/src/utils/eip-3770/config.js
-index 00ae69d..73fb49e 100644
+index 00ae69d..9bb8d46 100644
 --- a/node_modules/@safe-global/protocol-kit/dist/src/utils/eip-3770/config.js
 +++ b/node_modules/@safe-global/protocol-kit/dist/src/utils/eip-3770/config.js
-@@ -116,6 +116,7 @@ exports.networks = [
+@@ -116,6 +116,8 @@ exports.networks = [
      { chainId: 1984n, shortName: 'euntest' },
      { chainId: 1998n, shortName: 'kyoto-testnet' },
      { chainId: 2000n, shortName: 'dc' },
++    { chainId: 1514n, shortName: 'story' },
 +    { chainId: 1516n, shortName: 'story-odyssey' },
      { chainId: 2001n, shortName: 'milkada' },
      { chainId: 2002n, shortName: 'milkalgo' },
