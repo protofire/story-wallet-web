@@ -25,18 +25,4 @@ const SafeTerms = () => {
   return <main>{content ? <ReactMarkdown>{content}</ReactMarkdown> : <Typography>Loading terms...</Typography>}</main>
 }
 
-const Terms: NextPage = () => {
-  return (
-    <>
-      <Head>
-        <title>Terms and Conditions</title>
-      </Head>
-
-      <main>
-        <SafeTerms />
-      </main>
-    </>
-  )
-}
-
 export default Terms
