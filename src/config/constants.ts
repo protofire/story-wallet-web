@@ -4,8 +4,9 @@ export const IS_PRODUCTION = process.env.NEXT_PUBLIC_IS_PRODUCTION === 'true'
 export const IS_DEV = process.env.NODE_ENV === 'development'
 
 export const GATEWAY_URL_PRODUCTION =
-  process.env.NEXT_PUBLIC_GATEWAY_URL_PRODUCTION || 'https://safe-client.safe.global'
-export const GATEWAY_URL_STAGING = process.env.NEXT_PUBLIC_GATEWAY_URL_STAGING || 'https://safe-client.staging.5afe.dev'
+  process.env.NEXT_PUBLIC_GATEWAY_URL_PRODUCTION || 'https://gateway.staging.safe.story.foundation'
+export const GATEWAY_URL_STAGING =
+  process.env.NEXT_PUBLIC_GATEWAY_URL_STAGING || 'https://gateway.staging.safe.story.foundation'
 
 // Magic numbers
 export const POLLING_INTERVAL = 15_000
@@ -113,3 +114,10 @@ export const SAFE_PASS_URL = 'community.safe.global'
 export const ECOSYSTEM_ID_ADDRESS =
   process.env.NEXT_PUBLIC_ECOSYSTEM_ID_ADDRESS || '0x0000000000000000000000000000000000000000'
 export const MULTICHAIN_HELP_ARTICLE = `${HELP_CENTER_URL}/en/articles/222612-multi-chain-safe`
+
+export const TERMS_LINK =
+  process.env.NEXT_PUBLIC_TERMS_LINK ||
+  'https://raw.githubusercontent.com/protofire/safe-legal/refs/heads/main/terms.md'
+export const COOKIE_LINK =
+  process.env.NEXT_PUBLIC_COOKIE_LINK ||
+  'https://raw.githubusercontent.com/protofire/safe-legal/refs/heads/main/cookie.md'
