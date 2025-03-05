@@ -5,7 +5,7 @@ import css from './styles.module.css'
 import { AppRoutes } from '@/config/routes'
 import ExternalLink from '../ExternalLink'
 import MUILink from '@mui/material/Link'
-import { HELP_CENTER_URL, IS_DEV, IS_OFFICIAL_HOST } from '@/config/constants'
+import { HELP_CENTER_URL } from '@/config/constants'
 import ProtofireLogo from '@/public/images/protofire-logo.svg'
 import Link from 'next/link'
 
@@ -31,7 +31,7 @@ const FooterLink = ({ children, href }: { children: ReactNode; href: string }): 
 
 const Footer = (): ReactElement | null => {
   const router = useRouter()
-  const isOfficialHost = useIsOfficialHost()
+  //const isOfficialHost = useIsOfficialHost()
 
   if (!footerPages.some((path) => router.pathname.startsWith(path))) {
     return null
@@ -44,12 +44,10 @@ const Footer = (): ReactElement | null => {
   return (
     <footer className={css.container}>
       <ul>
-        {isOfficialHost ? (
-          <>
-            {/* <li>
+        {/* <li>
               <Typography variant="caption">&copy;2022–{new Date().getFullYear()} Core Contributors GmbH</Typography>
             </li> */}
-            {/* <li>
+        {/* <li>
               <FooterLink href={getHref(AppRoutes.terms)}>Terms</FooterLink>
             </li>
             <li>
@@ -67,15 +65,12 @@ const Footer = (): ReactElement | null => {
             <li>
               <FooterLink href={getHref(AppRoutes.settings.index)}>Preferences</FooterLink>
             </li> */}
-          </>
-        ) : (
-          <li>
-            <ExternalLink href={HELP_CENTER_URL} noIcon sx={{ span: { textDecoration: 'underline' } }}>
-              Help
-            </ExternalLink>
-          </li>
-          // <li>This is an unofficial distribution of Story Safe</li>
-        )}
+        <li>
+          <ExternalLink href={HELP_CENTER_URL} noIcon sx={{ span: { textDecoration: 'underline' } }}>
+            Help
+          </ExternalLink>
+        </li>
+        <li>This is an unofficial distribution of Story Safe</li>
 
         {/* <li>
           <ExternalLink href={`${packageJson.homepage}/releases/tag/v${packageJson.version}`} noIcon>
