@@ -263,10 +263,14 @@ index d1021c1..55e15bd 100644
          "105105": "canonical",
          "111188": "canonical",
 diff --git a/node_modules/@safe-global/safe-deployments/dist/assets/v1.4.1/multi_send_call_only.json b/node_modules/@safe-global/safe-deployments/dist/assets/v1.4.1/multi_send_call_only.json
-index 55f8c89..a9fdb87 100644
+index 55f8c89..1a78b23 100644
 --- a/node_modules/@safe-global/safe-deployments/dist/assets/v1.4.1/multi_send_call_only.json
 +++ b/node_modules/@safe-global/safe-deployments/dist/assets/v1.4.1/multi_send_call_only.json
-@@ -54,6 +54,7 @@
+@@ -51,9 +51,11 @@
+         "1284": "canonical",
+         "1285": "canonical",
+         "1287": "canonical",
++        "1315": "canonical",
          "1329": "canonical",
          "1337": "canonical",
          "1442": "canonical",
@@ -274,7 +278,7 @@ index 55f8c89..a9fdb87 100644
          "1625": "canonical",
          "1729": "canonical",
          "1811": "canonical",
-@@ -116,7 +117,7 @@
+@@ -116,7 +118,7 @@
          "80085": "canonical",
          "81457": "canonical",
          "84531": "canonical",
