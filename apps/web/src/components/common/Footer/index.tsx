@@ -70,7 +70,6 @@ const Footer = (): ReactElement | null => {
             Help
           </ExternalLink>
         </li>
-        <li>This is an unofficial distribution of Story Safe</li>
 
         {/* <li>
           <ExternalLink href={`${packageJson.homepage}/releases/tag/v${packageJson.version}`} noIcon>
