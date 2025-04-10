@@ -1,0 +1,14 @@
+diff --git a/dist/src/utils/eip-3770/config.js b/dist/src/utils/eip-3770/config.js
+index 4937a8edcfb3981d3974d2a0fa9bafdb92cde131..4458bdf8f029218fa1406964b2b6c94d2e225c4d 100644
+--- a/dist/src/utils/eip-3770/config.js
++++ b/dist/src/utils/eip-3770/config.js
+@@ -122,7 +122,8 @@ exports.networks = [
+     { chainId: 1329n, shortName: 'sei' },
+     { chainId: 1337n, shortName: 'geth' },
+     { chainId: 1442n, shortName: 'testnet-zkEVM-mango' },
+-    { chainId: 1513n, shortName: 'Story' },
++    { chainId: 1315n, shortName: 'story-aeneid' },
++    { chainId: 1514n, shortName: 'story' },
+     { chainId: 1516n, shortName: 'story-testnet' },
+     { chainId: 1559n, shortName: 'tenet' },
+     { chainId: 1625n, shortName: 'gravity' },
